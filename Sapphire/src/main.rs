@@ -11,14 +11,13 @@ use components::{Position, Velocity};
 use glium::{glutin, uniform, Surface};
 use image::ImageReader;
 use nalgebra::{Matrix4, Transform, Transform2, Transform3};
-use resources::mesh::Mesh;
+use components::resources::mesh::Mesh;
 use std::path::Path;
 use winit::event_loop::EventLoop;
 
 pub mod components;
 pub mod nodes;
 pub mod renderers;
-pub mod resources;
 pub mod shaders;
 
 fn hello_world() {
@@ -143,7 +142,7 @@ fn main() {
                     let x = t.sin() * 0.5;
 
                     let mut target = display.draw();
-                    target.clear_color(0.0, 0.0, 1.0, 1.0);
+                    target.clear_color(0.0, 0.0, 0.0, 1.0);
 
                     let uniforms = uniform! {
                         matrix: [

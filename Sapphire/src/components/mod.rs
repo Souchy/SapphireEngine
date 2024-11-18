@@ -1,6 +1,8 @@
 use bevy_ecs::{component::Component, entity::Entity};
 use nalgebra::Transform3;
 
+pub mod resources;
+
 /// General ----------------------------------------------------------------------------------------
 #[derive(Component, Debug, Clone)]
 pub struct Parent {
