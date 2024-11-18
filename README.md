@@ -1,2 +1,3 @@
 # SapphireEngine
-something something
+
+Vulkan renderer/game engine in Rust
