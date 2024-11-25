@@ -1,5 +1,8 @@
 # OpenGL
 
+- LEARN OPENGL: <https://github.com/bwasty/learn-opengl-rs?tab=readme-ov-file>
+ 	- Recommends gl+glfw. I'll take glow, almost the same thing but more rust-like.
+
 - Glium: very high level abstraction, <https://crates.io/crates/glium>, no longer maintained
 - Gl46: opengl4.6 bindings <https://crates.io/crates/gl46>
 - Gfx, gfx-hal, pre-ll, wgpu?? <https://github.com/gfx-rs/gfx>
@@ -7,7 +10,7 @@
 - Glow: <https://crates.io/crates/glow>, unsafe bindings
 
 - Glutin context provider?? <https://crates.io/crates/glutin>
-- GLFW: window stuff?: <https://crates.io/crates/glfw> 
+- GLFW: window stuff?: <https://crates.io/crates/glfw>
 
 > <https://www.reddit.com/r/rust/comments/4nrldm/opengl_in_rust/>
 Author of gl-rs here! Here it is the state of OpenGL in Rust at a glance:
