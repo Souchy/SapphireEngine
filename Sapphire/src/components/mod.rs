@@ -13,6 +13,10 @@ pub struct Parent {
 pub struct Children {
     pub children: Vec<Entity>,
 }
+#[derive(Component, Debug, Default, Clone)]
+pub struct Batch {
+    pub instances: Vec<Entity>,
+}
 
 /// 2D ----------------------------------------------------------------------------------------
 #[derive(Component, Debug, Default, Clone)]
